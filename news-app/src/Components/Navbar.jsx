@@ -42,11 +42,9 @@ import {
                 </div>
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
-                    <img
-                      className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                      alt="Your Company"
-                    />
+                    <span className='inline-flex items-center rounded-md bg-red-50 px-2 py-1 text-xl font-large text-red-700 ring-1 ring-inset ring-red-600/10'>
+                      DeNews
+                    </span>
                   </div>
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
